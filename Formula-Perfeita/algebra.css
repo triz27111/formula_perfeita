@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-bar h1 {
+    font-size: 1.5rem;
+  }
+  
+  .hamburger, .profile-icon {
+    font-size: 1.5rem;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #003366;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+  }
+  
+  .sidebar ul > li {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul > li > strong {
+    font-size: 1.2rem;
+  }
+  
+  .sidebar ul ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .sidebar ul ul li {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  main h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  main p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .equation-img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .rules h3 {
+    margin-bottom: 10px;
+  }
+  
+  .rules ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .rules li {
+    margin-bottom: 10px;
+  }
+  
+  .exercises h3 {
+    margin-bottom: 10px;
+  }
+  
+  .exercises ul {
+    list-style: none;
+  }
+  
+  .exercises ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
